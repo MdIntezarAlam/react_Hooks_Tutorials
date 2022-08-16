@@ -8,8 +8,10 @@ import React from "react";
 // import UseEffect_One from "./components/UseEffects/UseEffect_One";
 // import UseEffct_CleanUP_Fun from "./components/UseEffects/UseEffct_CleanUP_Fun";
 // import Useeffect_API from "./components/UseEffects/Useeffect_API";
-import UseReducere from "./components/useReducere/UseReducere";
+// import UseReducere from "./components/useReducere/UseReducere";
 // import UseRef from "./components/useRef_Uncntrolled_Components/UseRef";
+import One from "./components/useContextHooks/first/One";
+import SecMainComponent from "./components/useContextHooks/second/SecMainComponent";
 
 const App = () => {
   return (
@@ -40,8 +42,11 @@ const App = () => {
       {/* UseRef */}
       {/* <UseRef /> */}
       {/* UseReducere */}
-      <UseReducere />
+      {/* <UseReducere /> */}
+      {/* useContext Hooks */}
+      {/* <One  /> */}
 
+      <SecMainComponent /> 
     </div>
   );
 };
