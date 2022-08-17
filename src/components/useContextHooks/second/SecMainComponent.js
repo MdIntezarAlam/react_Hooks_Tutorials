@@ -7,7 +7,7 @@ import SecOne from "./SecOne";
 //4=> pass the data value F in provider
 //5=> jis bhee compo mai use karna hai pahle import kre pir new var mai store kre
 //6=> pr store var ko usekre
-const myData = createContext();
+const myData = createContext();  
 
 const SecMainComponent = () => {
   return (
